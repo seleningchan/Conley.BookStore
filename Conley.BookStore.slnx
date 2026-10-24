@@ -1,0 +1,24 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/Conley.BookStore.Domain/Conley.BookStore.Domain.csproj" />
+        <Project Path="src/Conley.BookStore.Application/Conley.BookStore.Application.csproj" />
+        <Project Path="src/Conley.BookStore.EntityFrameworkCore/Conley.BookStore.EntityFrameworkCore.csproj" />
+        <Project Path="src/Conley.BookStore.Web/Conley.BookStore.Web.csproj" />
+        <Project Path="src/Conley.BookStore.Domain.Shared/Conley.BookStore.Domain.Shared.csproj" />
+        <Project Path="src/Conley.BookStore.Application.Contracts/Conley.BookStore.Application.Contracts.csproj" />
+        <Project Path="src/Conley.BookStore.HttpApi/Conley.BookStore.HttpApi.csproj" />
+        <Project Path="src/Conley.BookStore.HttpApi.Client/Conley.BookStore.HttpApi.Client.csproj" />
+        <Project Path="src/Conley.BookStore.DbMigrator/Conley.BookStore.DbMigrator.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/Conley.BookStore.Application.Tests/Conley.BookStore.Application.Tests.csproj" />
+        <Project Path="test/Conley.BookStore.Web.Tests/Conley.BookStore.Web.Tests.csproj" />
+        <Project Path="test/Conley.BookStore.EntityFrameworkCore.Tests/Conley.BookStore.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/Conley.BookStore.TestBase/Conley.BookStore.TestBase.csproj" />
+        <Project Path="test/Conley.BookStore.Domain.Tests/Conley.BookStore.Domain.Tests.csproj" />
+        <Project Path="test/Conley.BookStore.HttpApi.Client.ConsoleTestApp/Conley.BookStore.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>

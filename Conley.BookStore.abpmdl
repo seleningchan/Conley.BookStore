@@ -1,0 +1,118 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "5.7.0",
+      "isInstalled": true,
+      "creationTime": "10/21/2026 15:15:36 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/21/2026 15:15:36 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/21/2026 15:15:36 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/21/2026 15:15:36 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/21/2026 15:15:36 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/21/2026 15:15:36 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/21/2026 15:15:36 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/21/2026 15:15:36 +00:00"
+    },
+    "Volo.Abp.BlobStoring.Database": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/21/2026 15:15:36 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Conley.BookStore.Application": {
+      "path": "src/Conley.BookStore.Application/Conley.BookStore.Application.abppkg",
+      "folder": "src"
+    },
+    "Conley.BookStore.Application.Tests": {
+      "path": "test/Conley.BookStore.Application.Tests/Conley.BookStore.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Conley.BookStore.Domain.Shared": {
+      "path": "src/Conley.BookStore.Domain.Shared/Conley.BookStore.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Conley.BookStore.Application.Contracts": {
+      "path": "src/Conley.BookStore.Application.Contracts/Conley.BookStore.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Conley.BookStore.HttpApi": {
+      "path": "src/Conley.BookStore.HttpApi/Conley.BookStore.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Conley.BookStore.HttpApi.Client": {
+      "path": "src/Conley.BookStore.HttpApi.Client/Conley.BookStore.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Conley.BookStore.Web": {
+      "path": "src/Conley.BookStore.Web/Conley.BookStore.Web.abppkg",
+      "folder": "src"
+    },
+    "Conley.BookStore.Web.Tests": {
+      "path": "test/Conley.BookStore.Web.Tests/Conley.BookStore.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "Conley.BookStore.EntityFrameworkCore.Tests": {
+      "path": "test/Conley.BookStore.EntityFrameworkCore.Tests/Conley.BookStore.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Conley.BookStore.EntityFrameworkCore": {
+      "path": "src/Conley.BookStore.EntityFrameworkCore/Conley.BookStore.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Conley.BookStore.TestBase": {
+      "path": "test/Conley.BookStore.TestBase/Conley.BookStore.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Conley.BookStore.Domain.Tests": {
+      "path": "test/Conley.BookStore.Domain.Tests/Conley.BookStore.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Conley.BookStore.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Conley.BookStore.HttpApi.Client.ConsoleTestApp/Conley.BookStore.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Conley.BookStore.DbMigrator": {
+      "path": "src/Conley.BookStore.DbMigrator/Conley.BookStore.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Conley.BookStore.Domain": {
+      "path": "src/Conley.BookStore.Domain/Conley.BookStore.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
